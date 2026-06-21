@@ -1,0 +1,11 @@
+# Ignorar el entorno virtual
+env_estocasticos/
+.venv/
+venv/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Opcional: si no quieres subir el dataset pesado a GitHub, descomenta la siguiente línea:
+# data/covid_19_data.csv
